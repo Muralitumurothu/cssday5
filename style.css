@@ -1,0 +1,64 @@
+/*a:link{
+    color:yellowgreen;
+
+}
+a:visited{
+    color:pink;
+}
+a:active{
+    color: red;
+}
+a:hover{
+    color:#ddd;
+}
+a:first-child{
+    color:blue;
+}
+p span:first-child{
+color:turquoise;
+}
+p span:last-child{
+    color:rebeccapurple;
+}
+p span:nth-of-type(odd){
+color:black;
+background-color: lightcoral;
+}
+p span:nth-of-type(even){
+    color:white;
+    background-color: darkslategrey;
+}
+p span:nth-of-type(3){
+    color:mediumorchid;
+    background-color: wheat;
+}
+*/
+/*div{
+    text-transform: uppercase;
+    border:1px  groove red;/* we can apply double,dashed,hidden,solid,groove,inset,outset  for border*/
+   /* width:15%;
+    margin:2% auto ;/* top right bottom left*/
+   /* padding:2%;
+    text-align: center;
+   box-shadow: 0px 8px 8px -8px #000;}*/ /*  right bottom blurratio  cubic ratio(gives shadow far fro the figure)*/
+.parent{
+    border:1px solid #ddd;
+    margin:15%;
+    padding:1%;
+    height:200px;
+    width:20%;
+   /* position:relative;*/
+    
+
+}
+.child{
+   /* position:absolute;  */ /*positions: static relative absolute(static+relative) sticky fixed*/
+    position:sticky;
+    
+    text-align: center;
+   top: 10px;
+    border:1px solid #ddd;
+    margin:1%;
+    width: 30%;
+    padding:1%;
+}
